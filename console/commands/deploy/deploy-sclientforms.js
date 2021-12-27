@@ -1,6 +1,8 @@
 #!/usr/bin/env node
 
-const { buildSclientformsRoutine } = require('@sotaoi/client/console/commands/routines/build-sclientforms-routine');
+const {
+  buildSclientformsRoutine,
+} = require('@sotaoi/client-forms/console/commands/routines/build-sclientforms-routine');
 
 const main = async () => {
   //

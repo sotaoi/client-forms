@@ -34,7 +34,7 @@ const buildSclientformsRoutine = async (deploy) => {
 
   execSync('npx tsc', { cwd: path.resolve('./deployment'), stdio: 'inherit' });
   fs.unlinkSync(path.resolve('./deployment/tsconfig.json'));
-  execSync('bash ./signal install', { cwd: path.resolve('./deployment'), stdio: 'inherit' });
+  execSync('./signal install', { cwd: path.resolve('./deployment'), stdio: 'inherit' });
 
   Helper.iterateRecursiveSync(
     fs,
