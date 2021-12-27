@@ -4,13 +4,14 @@ import { BaseInput, FieldValidation } from '@sotaoi/input/base-input';
 import { FormInput } from '@sotaoi/input/form-input';
 import { InputValidatorContract } from '@sotaoi/contracts/http/input-validator-contract';
 import { Helper } from '@sotaoi/client/helper';
-import { KeyboardType, TextInput } from 'react-native';
+// import { KeyboardType, TextInput } from 'react-native';
 
 interface InputProps extends React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> {
   onChange: (ev: any) => void;
   value: any;
   autoCapitalize?: 'none' | 'sentences' | 'words' | 'characters';
-  keyboardType?: KeyboardType;
+  // keyboardType?: KeyboardType;
+  keyboardType?: any;
   secureTextEntry?: boolean;
 }
 interface ComponentState {
@@ -92,20 +93,21 @@ class InputField<ComponentProps extends InputProps> extends BaseField<FormInput,
       return <input {...context.props} value={context.state.value ?? ''} />;
     }
     if (Helper.isMobile()) {
-      const autoCapitalize = context.props.autoCapitalize || 'none';
-      const keyboardType = context.props.keyboardType || 'default';
-      const secureTextEntry = context.props.secureTextEntry || false;
-      const { onChange, ..._props } = context.props as any;
-      return (
-        <TextInput
-          autoCapitalize={autoCapitalize}
-          keyboardType={keyboardType}
-          secureTextEntry={secureTextEntry}
-          onChangeText={(value: any): void => onChange({ target: { value } })}
-          {...(_props as any)}
-          value={context.state.value}
-        />
-      );
+      return null;
+      // const autoCapitalize = context.props.autoCapitalize || 'none';
+      // const keyboardType = context.props.keyboardType || 'default';
+      // const secureTextEntry = context.props.secureTextEntry || false;
+      // const { onChange, ..._props } = context.props as any;
+      // return (
+      //   <TextInput
+      //     autoCapitalize={autoCapitalize}
+      //     keyboardType={keyboardType}
+      //     secureTextEntry={secureTextEntry}
+      //     onChangeText={(value: any): void => onChange({ target: { value } })}
+      //     {...(_props as any)}
+      //     value={context.state.value}
+      //   />
+      // );
     }
     if (Helper.isElectron()) {
       throw new Error('electron is not implemented');
