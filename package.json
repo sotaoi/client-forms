@@ -13,11 +13,12 @@
     "clean:sclientforms": "node ./console/commands/clean/clean-sclientforms"
   },
   "peerDependencies": {
-    "@sotaoi/client": "^1.0.4",
+    "@sotaoi/client": "^1.0.6",
     "@sotaoi/config": "0.9.7",
     "react": "16.13.1"
   },
   "devDependencies": {
+    "@sotaoi/client": "^1.0.6",
     "@babel/runtime": "^7.8.4",
     "@sotaoi/signal": "1.0.5",
     "@sotaoi/contracts": "file:../sotaoi-contracts",
