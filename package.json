@@ -1,0 +1,35 @@
+{
+  "name": "@sotaoi/client-forms",
+  "private": false,
+  "version": "1.1.1",
+  "description": "",
+  "engines": {
+    "node": "14.x"
+  },
+  "scripts": {
+    "build:sclientforms": "node ./console/commands/build/build-sclientforms",
+    "deploy:sclientforms": "node ./console/commands/deploy/deploy-sclientforms",
+    "clean:bootstrap": "node ./console/commands/clean/clean-bootstrap",
+    "clean:sclientforms": "node ./console/commands/clean/clean-sclientforms"
+  },
+  "peerDependencies": {
+    "@sotaoi/client": "^1.0.4",
+    "@sotaoi/config": "0.9.7",
+    "react": "16.13.1"
+  },
+  "devDependencies": {
+    "@babel/runtime": "^7.8.4",
+    "@sotaoi/signal": "1.0.5",
+    "@sotaoi/contracts": "file:../sotaoi-contracts",
+    "@sotaoi/input": "file:../sotaoi-input",
+    "@types/lodash": "^4.14.171",
+    "@types/react": "^16.9"
+  },
+  "dependencies": {
+    "@sotaoi/client-forms": "file:./",
+    "@sotaoi/contracts": "^1.0.4",
+    "@sotaoi/input": "^1.0.4",
+    "lodash": "^4.17.21",
+    "typescript": "4.1.5"
+  }
+}
