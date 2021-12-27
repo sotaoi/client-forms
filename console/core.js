@@ -4,7 +4,7 @@ const { execSync } = require('child_process');
 
 const integrity = async () => {
   if (
-    fs.existsSync(path.resolve('./node_modules/@sotaoi/client')) &&
+    fs.existsSync(path.resolve('./node_modules/@sotaoi/client-forms')) &&
     fs.existsSync(path.resolve('./node_modules/@sotaoi/signal'))
   ) {
     return;
