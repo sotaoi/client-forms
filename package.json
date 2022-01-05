@@ -15,14 +15,14 @@
   "peerDependencies": {
     "@sotaoi/client": "^1.1.8",
     "@sotaoi/config": "^0.9.7",
-    "@sotaoi/contracts": "^1.0.6",
+    "@sotaoi/contracts": "^1.0.8",
     "@sotaoi/input": "^1.0.5",
     "react": "16.13.1"
   },
   "devDependencies": {
     "@sotaoi/client": "^1.1.8",
     "@sotaoi/client-forms": "file:./",
-    "@sotaoi/contracts": "^1.0.6",
+    "@sotaoi/contracts": "^1.0.8",
     "@sotaoi/input": "^1.0.5",
     "@babel/runtime": "^7.8.4",
     "@sotaoi/signal": "1.0.5",
