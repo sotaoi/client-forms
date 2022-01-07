@@ -1,6 +1,6 @@
 import { assignFields } from '@sotaoi/client-forms/fields/assign-fields';
 import { BaseField, FieldInit, FieldConstructor } from '@sotaoi/client-forms/fields/base-field';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 import { BaseForm } from '@sotaoi/client-forms/form-classes/base-form';
 import { InputValidatorContract } from '@sotaoi/contracts/http/input-validator-contract';
 import { BaseInput } from '@sotaoi/input/base-input';

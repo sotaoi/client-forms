@@ -4,7 +4,7 @@ import { RecordRef } from '@sotaoi/contracts/artifacts';
 import { FieldValidation, BaseInput } from '@sotaoi/input/base-input';
 import { RefSelectInput, RefSelectValue } from '@sotaoi/input/ref-select-input';
 import { InputValidatorContract } from '@sotaoi/contracts/http/input-validator-contract';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 // import { Picker } from 'react-native-picker/picker';
 
 interface ComponentProps

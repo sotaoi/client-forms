@@ -3,7 +3,7 @@ import { BaseField, FieldInit } from '@sotaoi/client-forms/fields/base-field';
 import { BaseInput, FieldValidation } from '@sotaoi/input/base-input';
 import { FileInput, FileValue, FileFieldType } from '@sotaoi/input/file-input';
 import { InputValidatorContract } from '@sotaoi/contracts/http/input-validator-contract';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 
 type ComponentStateValue = null | File;
 interface ComponentProps

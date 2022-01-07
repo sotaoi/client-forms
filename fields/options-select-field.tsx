@@ -3,7 +3,7 @@ import { BaseField, FieldInit } from '@sotaoi/client-forms/fields/base-field';
 import { FieldValidation, BaseInput } from '@sotaoi/input/base-input';
 import { OptionsSelectInput, OptionsSelectValue } from '@sotaoi/input/options-select-input';
 import { InputValidatorContract } from '@sotaoi/contracts/http/input-validator-contract';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 
 interface ComponentProps {
   onChange: (ev: any) => void;

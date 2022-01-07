@@ -1,6 +1,6 @@
 import React from 'react';
 import { InputField } from '@sotaoi/client-forms/fields/input-field';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 
 interface ComponentProps
   extends React.DetailedHTMLProps<React.TextareaHTMLAttributes<HTMLTextAreaElement>, HTMLTextAreaElement> {

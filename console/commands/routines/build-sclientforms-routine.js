@@ -1,6 +1,6 @@
 const fs = require('fs');
 const path = require('path');
-const { Helper } = require('@sotaoi/client/helper');
+const { Helper } = require('@sotaoi/client-helper');
 const { execSync } = require('child_process');
 
 const buildSclientformsRoutine = async (deploy) => {

@@ -1,7 +1,7 @@
 {
   "name": "@sotaoi/client-forms",
   "private": false,
-  "version": "1.1.3",
+  "version": "1.1.4",
   "description": "",
   "engines": {
     "node": "14.x"
@@ -14,6 +14,7 @@
   },
   "peerDependencies": {
     "@sotaoi/client": "^1.1.8",
+    "@sotaoi/client-helper": "^1.0.3",
     "@sotaoi/config": "^0.9.7",
     "@sotaoi/contracts": "^1.0.8",
     "@sotaoi/input": "^1.0.5",
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@sotaoi/client": "^1.1.8",
     "@sotaoi/client-forms": "file:./",
+    "@sotaoi/client-helper": "^1.0.3",
     "@sotaoi/contracts": "^1.0.8",
     "@sotaoi/input": "^1.0.5",
     "@babel/runtime": "^7.8.4",

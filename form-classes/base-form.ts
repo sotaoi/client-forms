@@ -4,7 +4,7 @@ import { assignFields } from '@sotaoi/client-forms/fields/assign-fields';
 import { Payload, CommandResult, AuthResult, TaskResult, ActionConclusion } from '@sotaoi/contracts/transactions';
 import { AuthRecord, Artifacts } from '@sotaoi/contracts/artifacts';
 import { BaseInput, FormValidations } from '@sotaoi/input/base-input';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 import { SingleCollectionConstructor, CollectionConstructor } from '@sotaoi/client-forms/fields/collection-field';
 import { InputValidatorContract, InputValidationResult } from '@sotaoi/contracts/http/input-validator-contract';
 import _ from 'lodash';

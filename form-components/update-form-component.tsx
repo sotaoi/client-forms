@@ -1,6 +1,6 @@
 import React from 'react';
 import { UpdateForm } from '@sotaoi/client-forms/form-classes/update-form';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 
 const getUpdateFormComponent =
   (form: UpdateForm): React.FunctionComponent<any> =>

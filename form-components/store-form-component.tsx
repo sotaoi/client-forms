@@ -1,6 +1,6 @@
 import React from 'react';
 import { StoreForm } from '@sotaoi/client-forms/form-classes/store-form';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 
 const getStoreFormComponent =
   (form: StoreForm): React.FunctionComponent<any> =>

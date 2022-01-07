@@ -3,7 +3,7 @@ import { BaseField, FieldInit } from '@sotaoi/client-forms/fields/base-field';
 import { FieldValidation, BaseInput } from '@sotaoi/input/base-input';
 import { StringSelectInput, StringSelectValue } from '@sotaoi/input/string-select-input';
 import { InputValidatorContract } from '@sotaoi/contracts/http/input-validator-contract';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 // import { Picker } from 'react-native-picker/picker';
 
 interface ComponentProps

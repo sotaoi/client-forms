@@ -1,6 +1,6 @@
 import React from 'react';
 import { AuthForm } from '@sotaoi/client-forms/form-classes/auth-form';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 
 const getAuthFormComponent =
   (form: AuthForm): React.FunctionComponent<any> =>

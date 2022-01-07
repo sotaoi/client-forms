@@ -4,7 +4,7 @@ import { FieldValidation, BaseInput } from '@sotaoi/input/base-input';
 import { MultiFileInput, MultiFileFieldType } from '@sotaoi/input/multi-file-input';
 import { FileInput, StoredItem } from '@sotaoi/input/file-input';
 import { InputValidatorContract } from '@sotaoi/contracts/http/input-validator-contract';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 
 interface ComponentProps
   extends React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> {

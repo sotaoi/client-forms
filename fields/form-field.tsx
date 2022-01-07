@@ -3,7 +3,7 @@ import { BaseField, FieldInit } from '@sotaoi/client-forms/fields/base-field';
 import { BaseInput, FieldValidation } from '@sotaoi/input/base-input';
 import { FormInput } from '@sotaoi/input/form-input';
 import { InputValidatorContract } from '@sotaoi/contracts/http/input-validator-contract';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 // import { KeyboardType, TextInput } from 'react-native';
 
 interface InputProps extends React.DetailedHTMLProps<React.InputHTMLAttributes<HTMLInputElement>, HTMLInputElement> {

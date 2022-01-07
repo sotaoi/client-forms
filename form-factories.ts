@@ -6,7 +6,7 @@ import { FormValidations } from '@sotaoi/input/base-input';
 import { FieldConstructor } from '@sotaoi/client-forms/fields/base-field';
 import { SingleCollectionConstructor, CollectionConstructor } from '@sotaoi/client-forms/fields/collection-field';
 import { BaseForm } from '@sotaoi/client-forms/form-classes/base-form';
-import { Helper } from '@sotaoi/client/helper';
+import { Helper } from '@sotaoi/client-helper';
 import _ from 'lodash';
 import { TaskForm } from '@sotaoi/client-forms/form-classes/task-form';
 
