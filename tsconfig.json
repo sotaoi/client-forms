@@ -13,7 +13,7 @@
     "strictNullChecks": true,
     "resolveJsonModule": true,
     "module": "commonjs",
-    "isolatedModules": true,
+    "isolatedModules": false,
     "noEmitOnError": true,
     "jsx": "react"
   },
